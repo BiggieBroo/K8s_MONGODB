@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-demo
+data:
+  db.conf: |
+   log_type all
